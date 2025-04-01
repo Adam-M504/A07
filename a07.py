@@ -10,7 +10,7 @@ data = {
     'Runner-up': ['Argentina', 'Czechoslovakia', 'Hungary', 'Brazil', 'Hungary', 'Sweden', 'Czechoslovakia', 'Germany', 'Italy', 'Netherlands', 'Netherlands', 'Germany', 'Germany', 'Argentina', 'Italy', 'Brazil', 'Germany', 'France', 'Netherlands', 'Argentina', 'Croatia', 'France']
 }
 results = pd.DataFrame(data)
-
+server = app.server
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
