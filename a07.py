@@ -10,8 +10,9 @@ data = {
     'Runner-up': ['Argentina', 'Czechoslovakia', 'Hungary', 'Brazil', 'Hungary', 'Sweden', 'Czechoslovakia', 'Germany', 'Italy', 'Netherlands', 'Netherlands', 'Germany', 'Germany', 'Argentina', 'Italy', 'Brazil', 'Germany', 'France', 'Netherlands', 'Argentina', 'Croatia', 'France']
 }
 results = pd.DataFrame(data)
-server = app.server
+
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     dcc.Tabs(id="tabs", value='tab-1', children=[
